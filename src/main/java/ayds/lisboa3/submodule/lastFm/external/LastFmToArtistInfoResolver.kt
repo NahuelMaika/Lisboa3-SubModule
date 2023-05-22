@@ -2,7 +2,6 @@ package ayds.lisboa3.submodule.lastFm.external
 
 import com.google.gson.Gson
 import com.google.gson.JsonObject
-import ayds.lisboa3.submodule.lastFm.LastFmArtistInfo
 
 private const val JSON_ARTIST = "artist"
 private const val JSON_BIO = "bio"
@@ -26,7 +25,6 @@ class LastFmToArtistInfoResolverImpl: LastFmToArtistInfoResolver {
         } catch (e: Exception) {
             null
         }
-
 
     private fun String?.getArtist(): JsonObject {
         val jsonServiceData = Gson().fromJson(this, JsonObject::class.java)
