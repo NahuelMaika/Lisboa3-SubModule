@@ -1,4 +1,4 @@
-package ayds.lisboa3.submodule.lastFm.external
+package ayds.lisboa3.submodule.lastFm
 
 import com.google.gson.Gson
 import com.google.gson.JsonObject
@@ -12,7 +12,7 @@ interface LastFmToArtistInfoResolver {
     fun getArtistInfoFromExternalData(serviceData: String?): LastFmArtistInfo?
 }
 
-class LastFmToArtistInfoResolverImpl: LastFmToArtistInfoResolver {
+internal class LastFmToArtistInfoResolverImpl: LastFmToArtistInfoResolver {
 
     override fun getArtistInfoFromExternalData(serviceData: String?): LastFmArtistInfo? =
         try {

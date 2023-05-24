@@ -1,4 +1,4 @@
-package ayds.lisboa3.submodule.lastFm.external
+package ayds.lisboa3.submodule.lastFm
 
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory

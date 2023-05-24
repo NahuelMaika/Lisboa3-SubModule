@@ -1,4 +1,4 @@
-package ayds.lisboa3.submodule.lastFm.external
+package ayds.lisboa3.submodule.lastFm
 
 import retrofit2.Response
 
@@ -6,7 +6,7 @@ interface LastFmService {
     fun getArtistInfo(artistName: String): LastFmArtistInfo?
 }
 
-class LastFmServiceImpl(
+internal class LastFmServiceImpl(
     private val lastFMAPI: LastFmApi,
     private val lastFmToArtistInfoResolver: LastFmToArtistInfoResolver
 ): LastFmService {
