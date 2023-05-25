@@ -12,4 +12,4 @@ Los tipos de resultado que pueden obtenerse son:
 * Una entidad **LastFmArtistInfo**, en caso de existir.
 * **NULL**, en caso de que la búsqueda no sea exitosa.
 
-La url de la imagen de LastFm puede obtenerse como una constante publica en LastFmArtistInfo.
+La url de la imagen de LastFm puede obtenerse a traves de la constante publica LAST_FM_DEFAULT_IMAGE en LastFmArtistInfo.
