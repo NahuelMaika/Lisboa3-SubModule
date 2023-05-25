@@ -12,4 +12,4 @@ Los tipos de resultado que pueden obtenerse son:
 * Una entidad **LastFmArtistInfo**, en caso de existir.
 * **NULL**, en caso de que la búsqueda no sea exitosa.
 
-La url de la imagen de LastFm puede obtenerse como una propiedad de la entidad de dominio LastFmArtistInfo.
+La url de la imagen de LastFm puede obtenerse como una constante publica en LastFmArtistInfo.
